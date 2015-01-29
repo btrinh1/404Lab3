@@ -8,6 +8,7 @@ family = form.getvalue('family')
 print """Content-Type: text/html
  
 <!DOCTYPE html>
+
 <html>
 <form method="get" action="1.py">
 name: <input type="text" name="name" />
