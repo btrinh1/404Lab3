@@ -9,11 +9,6 @@ print """Content-Type: text/html
  
 <!DOCTYPE html>
 <html>
-<head>
-<title>Page Title</title>
-<meta charset="UTF-8"/>
-</head>
-<body>
 <form method="get" action="1.py">
 name: <input type="text" name="name" />
 <div> family: <input type="text" name="family" /> </div>
@@ -21,7 +16,6 @@ name: <input type="text" name="name" />
 <diuv> main hobby: <input type="text" name="main hobby" /> </div>
 <div> <input type="submit" value="Send"> </div>
 </form>
-</body>
 <h1> <u> Results: </u> </h1>
 name: %s <br/>
 <div> family: %s <br/>
